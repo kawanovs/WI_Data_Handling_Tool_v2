@@ -1,5 +1,6 @@
 # WI_Data_Handling
 A tool for data visualization, check and conversion to XML.
+# Version 1 capabilites:
 ## Functionality depends on the input file format
 File Type | Preprocessing | Split data to RIH/POOH | Visualization | Check according to the WD requirements | Convert to XML
 :---:   | :---:   | :---:  | :---:  |:---:  | :---:  
@@ -24,3 +25,6 @@ XML | Not needed | Yes| Yes| Yes| No
 * Folder **generatedXML** will contain a generated XML file
 * Folder **templates** contain HTML templates for the application's interface
 * Folder **uploads** is where uploaded files will be stored
+# Version 2 capabilites:
+Manual input data correction
+File split according to KDI requirements
