@@ -1,0 +1,11 @@
+Well Head Parameters : WH
+Well Downhole Data : WDH
+BOP Status Data : BOP
+Coiled Tubing Operational Data : CT
+Fracturing : FRAC
+Wireline Hoist Data : WL
+Slickline Hoist Data : SL
+Hydraulic Power/Pumping Unit : HPU
+Gas Compressing Unit : GC
+Heavy Workover Unit : HWU
+Power Source : PC

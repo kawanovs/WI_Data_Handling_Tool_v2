@@ -1,0 +1,4 @@
+Operational data : OP
+Subsurface real-time logging data : RT
+Subsurface raw data from memory : PJ
+Final corrected data : FNL

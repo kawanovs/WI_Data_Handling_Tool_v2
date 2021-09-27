@@ -1,0 +1,48 @@
+{% extends 'check.html' %}
+{% block content %}
+<div class="container">
+    <table class="table">
+                <thead>
+                <tr>
+                    {% for col in column_names1 %}
+                    <th class="text-center">
+                        {{col}}
+                    </th>
+                    {% endfor %}
+                </tr>
+                </thead>
+                <tbody>
+                {% for row in row_data1 %}
+                <tr class="text-center" >
+                    {% for col, row_ in zip1(column_names, row) %}
+                    <td>{{row_}}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+</div>
+<div class="container" style="height:500px;overflow:scroll">
+    <table class="table">
+                <thead>
+                <tr>
+                    {% for col in column_names %}
+                    <th class="text-center">
+                        {{col}}
+                    </th>
+                    {% endfor %}
+                </tr>
+                </thead>
+                <tbody>
+                {% for row in row_data %}
+                <tr class="text-center" >
+                    {% for col, row_ in zip(column_names, row) %}
+                    <td>{{row_}}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+</div>
+{% endblock %}
+

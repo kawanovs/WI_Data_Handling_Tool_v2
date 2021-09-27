@@ -1,0 +1,8 @@
+{% extends 'check.html' %}
+{% block content %}
+<div class="container" style="height:400px;overflow:scroll">
+        {% for line in description %}
+      <p align="center">{{line}}</p>
+    {% endfor %}
+</div>
+{% endblock %}
