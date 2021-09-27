@@ -26,5 +26,5 @@ XML | Not needed | Yes| Yes| Yes| No
 * Folder **templates** contain HTML templates for the application's interface
 * Folder **uploads** is where uploaded files will be stored
 # Version 2 capabilites:
-Manual input data correction
+Manual input data correction and
 File split according to KDI requirements
